@@ -1,10 +1,3 @@
 venv/
 __pycache__/
 *.pyc
-*.bin
-*.elf
-*.hex
-*.vcd
-sim_build/
-sby/
-*.log
