@@ -1,0 +1,28 @@
+{
+    "instruction_histogram": {
+        "li": 3,
+        "add": 58,
+        "sw": 27,
+        "lw": 27,
+        "addi": 24,
+        "bne": 1,
+        "or": 9,
+        "and": 12,
+        "srl": 7,
+        "sub": 9,
+        "sll": 9,
+        "xor": 3,
+        "j": 1
+    },
+    "instruction_spread": 13,
+    "unique_registers_used": 6,
+    "immediate_value_coverage": 10,
+    "simulation_throughput_ips": 32.12,
+    "stage_specific_coverage": {
+        "fetch": 190,
+        "decode": 190,
+        "execute": 190,
+        "memory": 54,
+        "writeback": 189
+    }
+}

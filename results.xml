@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1772371283" />
+    <testcase name="coverage_test" classname="sim.test_core" file="/home/ankush/vlsid_role_a/sim/test_core.py" lineno="5" time="0.05576205253601074" sim_time_ns="3095.0" ratio_time="55503.69577951369" />
+  </testsuite>
+</testsuites>

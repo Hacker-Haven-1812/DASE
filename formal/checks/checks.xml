@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+<testsuite timestamp="2025-12-11T14:33:37" hostname="ankush-VMware-Virtual-Platform" package="checks" id="0" name="default" tests="23" errors="0" failures="0" time="4" skipped="0">
+<properties>
+<property name="os" value="Linux"/>
+<property name="expect" value="PASS"/>
+<property name="status" value="PASS"/>
+</properties>
+<testcase classname="default" name="build execution" time="0">
+</testcase>
+<testcase classname="default" name="Property ASSERT in picorv32 at picorv32.v:2121.31-2122.28" time="0" type="ASSERT" location="picorv32.v:2121.31-2122.28" id="$assert$picorv32.v:2121$806">
+</testcase>
+<testcase classname="default" name="Property ASSERT in picorv32 at picorv32.v:2133.46-2134.15" time="0" type="ASSERT" location="picorv32.v:2133.46-2134.15" id="$assert$picorv32.v:2133$807">
+</testcase>
+<testcase classname="default" name="Property ASSERT in picorv32 at picorv32.v:2151.30-2152.21" time="0" type="ASSERT" location="picorv32.v:2151.30-2152.21" id="$assert$picorv32.v:2151$808">
+</testcase>
+<testcase classname="default" name="Property ASSERT in picorv32 at picorv32.v:2152.22-2153.40" time="0" type="ASSERT" location="picorv32.v:2152.22-2153.40" id="$assert$picorv32.v:2152$809">
+</testcase>
+<testcase classname="default" name="Property ASSERT in picorv32 at picorv32.v:2153.41-2154.26" time="0" type="ASSERT" location="picorv32.v:2153.41-2154.26" id="$assert$picorv32.v:2153$810">
+</testcase>
+<testcase classname="default" name="Property ASSERT in picorv32 at picorv32.v:2156.31-2157.21" time="0" type="ASSERT" location="picorv32.v:2156.31-2157.21" id="$assert$picorv32.v:2156$811">
+</testcase>
+<testcase classname="default" name="Property ASSERT in picorv32 at picorv32.v:2157.22-2158.40" time="0" type="ASSERT" location="picorv32.v:2157.22-2158.40" id="$assert$picorv32.v:2157$812">
+</testcase>
+<testcase classname="default" name="Property ASSERT in picorv32 at picorv32.v:2158.41-2159.42" time="0" type="ASSERT" location="picorv32.v:2158.41-2159.42" id="$assert$picorv32.v:2158$813">
+</testcase>
+<testcase classname="default" name="Property ASSERT in picorv32 at picorv32.v:2159.43-2160.42" time="0" type="ASSERT" location="picorv32.v:2159.43-2160.42" id="$assert$picorv32.v:2159$814">
+</testcase>
+<testcase classname="default" name="Property ASSERT in picorv32 at picorv32.v:2162.41-2163.35" time="0" type="ASSERT" location="picorv32.v:2162.41-2163.35" id="$assert$picorv32.v:2162$815">
+</testcase>
+<testcase classname="default" name="Property ASSERT in picorv32 at picorv32.v:548.56-549.26" time="0" type="ASSERT" location="picorv32.v:548.56-549.26" id="$assert$picorv32.v:548$793">
+</testcase>
+<testcase classname="default" name="Property ASSERT in picorv32 at picorv32.v:551.40-552.26" time="0" type="ASSERT" location="picorv32.v:551.40-552.26" id="$assert$picorv32.v:551$794">
+</testcase>
+<testcase classname="default" name="Property ASSERT in picorv32 at picorv32.v:554.21-555.46" time="0" type="ASSERT" location="picorv32.v:554.21-555.46" id="$assert$picorv32.v:554$795">
+</testcase>
+<testcase classname="default" name="Property ASSERT in picorv32 at picorv32.v:557.21-558.63" time="0" type="ASSERT" location="picorv32.v:557.21-558.63" id="$assert$picorv32.v:557$796">
+</testcase>
+<testcase classname="default" name="Property ASSERT in picorv32 at picorv32.v:560.41-561.41" time="0" type="ASSERT" location="picorv32.v:560.41-561.41" id="$assert$picorv32.v:560$797">
+</testcase>
+<testcase classname="default" name="Property ASSERT in picorv32 at picorv32.v:595.13-596.28" time="0" type="ASSERT" location="picorv32.v:595.13-596.28" id="$assert$picorv32.v:595$798">
+</testcase>
+<testcase classname="default" name="Property ASSERT in picorv32 at picorv32.v:596.30-597.61" time="0" type="ASSERT" location="picorv32.v:596.30-597.61" id="$assert$picorv32.v:596$799">
+</testcase>
+<testcase classname="default" name="Property ASSERT in picorv32 at picorv32.v:597.63-598.59" time="0" type="ASSERT" location="picorv32.v:597.63-598.59" id="$assert$picorv32.v:597$800">
+</testcase>
+<testcase classname="default" name="Property ASSERT in picorv32 at picorv32.v:598.61-599.60" time="0" type="ASSERT" location="picorv32.v:598.61-599.60" id="$assert$picorv32.v:598$801">
+</testcase>
+<testcase classname="default" name="Property ASSERT in picorv32 at picorv32.v:621.13-622.28" time="0" type="ASSERT" location="picorv32.v:621.13-622.28" id="$assert$picorv32.v:621$802">
+</testcase>
+<testcase classname="default" name="Property ASSERT in picorv32 at picorv32.v:622.30-623.26" time="0" type="ASSERT" location="picorv32.v:622.30-623.26" id="$assert$picorv32.v:622$803">
+</testcase>
+<testcase classname="default" name="Property ASSERT in picorv32 at picorv32.v:629.13-630.28" time="0" type="ASSERT" location="picorv32.v:629.13-630.28" id="$assert$picorv32.v:629$804">
+</testcase>
+<testcase classname="default" name="Property ASSERT in picorv32 at picorv32.v:630.30-631.29" time="0" type="ASSERT" location="picorv32.v:630.30-631.29" id="$assert$picorv32.v:630$805">
+</testcase>
+<system-out>SBY 14:33:33 [checks] Removing directory '/home/ankush/vlsid_role_a/formal/checks'.
+SBY 14:33:33 [checks] Copy '/home/ankush/vlsid_role_a/formal/../rtl/picorv32.v' to '/home/ankush/vlsid_role_a/formal/checks/src/picorv32.v'.
+SBY 14:33:33 [checks] engine_0: smtbmc z3
+SBY 14:33:33 [checks] base: starting process &quot;cd checks/src; yosys -ql ../model/design.log ../model/design.ys&quot;
+SBY 14:33:34 [checks] base: finished (returncode=0)
+SBY 14:33:34 [checks] prep: starting process &quot;cd checks/model; yosys -ql design_prep.log design_prep.ys&quot;
+SBY 14:33:34 [checks] prep: finished (returncode=0)
+SBY 14:33:34 [checks] smt2: starting process &quot;cd checks/model; yosys -ql design_smt2.log design_smt2.ys&quot;
+SBY 14:33:34 [checks] smt2: finished (returncode=0)
+SBY 14:33:34 [checks] engine_0: starting process &quot;cd checks; yosys-smtbmc -s z3 --presat --noprogress -t 10  --append 0 --dump-vcd engine_0/trace.vcd --dump-yw engine_0/trace.yw --dump-vlogtb engine_0/trace_tb.v --dump-smtc engine_0/trace.smtc model/design_smt2.smt2&quot;
+SBY 14:33:34 [checks] engine_0: ##   0:00:00  Solver: z3
+SBY 14:33:34 [checks] engine_0: ##   0:00:00  Checking assumptions in step 0..
+SBY 14:33:34 [checks] engine_0: ##   0:00:00  Checking assertions in step 0..
+SBY 14:33:34 [checks] engine_0: ##   0:00:00  Checking assumptions in step 1..
+SBY 14:33:35 [checks] engine_0: ##   0:00:00  Checking assertions in step 1..
+SBY 14:33:35 [checks] engine_0: ##   0:00:00  Checking assumptions in step 2..
+SBY 14:33:35 [checks] engine_0: ##   0:00:00  Checking assertions in step 2..
+SBY 14:33:35 [checks] engine_0: ##   0:00:00  Checking assumptions in step 3..
+SBY 14:33:35 [checks] engine_0: ##   0:00:00  Checking assertions in step 3..
+SBY 14:33:35 [checks] engine_0: ##   0:00:00  Checking assumptions in step 4..
+SBY 14:33:35 [checks] engine_0: ##   0:00:00  Checking assertions in step 4..
+SBY 14:33:35 [checks] engine_0: ##   0:00:00  Checking assumptions in step 5..
+SBY 14:33:35 [checks] engine_0: ##   0:00:00  Checking assertions in step 5..
+SBY 14:33:35 [checks] engine_0: ##   0:00:00  Checking assumptions in step 6..
+SBY 14:33:35 [checks] engine_0: ##   0:00:00  Checking assertions in step 6..
+SBY 14:33:35 [checks] engine_0: ##   0:00:00  Checking assumptions in step 7..
+SBY 14:33:35 [checks] engine_0: ##   0:00:00  Checking assertions in step 7..
+SBY 14:33:35 [checks] engine_0: ##   0:00:00  Checking assumptions in step 8..
+SBY 14:33:35 [checks] engine_0: ##   0:00:00  Checking assertions in step 8..
+SBY 14:33:35 [checks] engine_0: ##   0:00:00  Checking assumptions in step 9..
+SBY 14:33:36 [checks] engine_0: ##   0:00:02  Checking assertions in step 9..
+SBY 14:33:37 [checks] engine_0: ##   0:00:02  Status: passed
+SBY 14:33:37 [checks] engine_0: finished (returncode=0)
+SBY 14:33:37 [checks] engine_0: Status returned by engine: pass
+SBY 14:33:37 [checks] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:04 (4)
+SBY 14:33:37 [checks] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:04 (4)
+SBY 14:33:37 [checks] summary: engine_0 (smtbmc z3) returned pass
+SBY 14:33:37 [checks] summary: engine_0 did not produce any traces
+SBY 14:33:37 [checks] DONE (PASS, rc=0)
+</system-out>
+<system-err>
+</system-err>
+</testsuite>
+</testsuites>

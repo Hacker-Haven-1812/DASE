@@ -1,0 +1,39 @@
+SBY 14:33:33 [checks] Removing directory '/home/ankush/vlsid_role_a/formal/checks'.
+SBY 14:33:33 [checks] Copy '/home/ankush/vlsid_role_a/formal/../rtl/picorv32.v' to '/home/ankush/vlsid_role_a/formal/checks/src/picorv32.v'.
+SBY 14:33:33 [checks] engine_0: smtbmc z3
+SBY 14:33:33 [checks] base: starting process "cd checks/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY 14:33:34 [checks] base: finished (returncode=0)
+SBY 14:33:34 [checks] prep: starting process "cd checks/model; yosys -ql design_prep.log design_prep.ys"
+SBY 14:33:34 [checks] prep: finished (returncode=0)
+SBY 14:33:34 [checks] smt2: starting process "cd checks/model; yosys -ql design_smt2.log design_smt2.ys"
+SBY 14:33:34 [checks] smt2: finished (returncode=0)
+SBY 14:33:34 [checks] engine_0: starting process "cd checks; yosys-smtbmc -s z3 --presat --noprogress -t 10  --append 0 --dump-vcd engine_0/trace.vcd --dump-yw engine_0/trace.yw --dump-vlogtb engine_0/trace_tb.v --dump-smtc engine_0/trace.smtc model/design_smt2.smt2"
+SBY 14:33:34 [checks] engine_0: ##   0:00:00  Solver: z3
+SBY 14:33:34 [checks] engine_0: ##   0:00:00  Checking assumptions in step 0..
+SBY 14:33:34 [checks] engine_0: ##   0:00:00  Checking assertions in step 0..
+SBY 14:33:34 [checks] engine_0: ##   0:00:00  Checking assumptions in step 1..
+SBY 14:33:35 [checks] engine_0: ##   0:00:00  Checking assertions in step 1..
+SBY 14:33:35 [checks] engine_0: ##   0:00:00  Checking assumptions in step 2..
+SBY 14:33:35 [checks] engine_0: ##   0:00:00  Checking assertions in step 2..
+SBY 14:33:35 [checks] engine_0: ##   0:00:00  Checking assumptions in step 3..
+SBY 14:33:35 [checks] engine_0: ##   0:00:00  Checking assertions in step 3..
+SBY 14:33:35 [checks] engine_0: ##   0:00:00  Checking assumptions in step 4..
+SBY 14:33:35 [checks] engine_0: ##   0:00:00  Checking assertions in step 4..
+SBY 14:33:35 [checks] engine_0: ##   0:00:00  Checking assumptions in step 5..
+SBY 14:33:35 [checks] engine_0: ##   0:00:00  Checking assertions in step 5..
+SBY 14:33:35 [checks] engine_0: ##   0:00:00  Checking assumptions in step 6..
+SBY 14:33:35 [checks] engine_0: ##   0:00:00  Checking assertions in step 6..
+SBY 14:33:35 [checks] engine_0: ##   0:00:00  Checking assumptions in step 7..
+SBY 14:33:35 [checks] engine_0: ##   0:00:00  Checking assertions in step 7..
+SBY 14:33:35 [checks] engine_0: ##   0:00:00  Checking assumptions in step 8..
+SBY 14:33:35 [checks] engine_0: ##   0:00:00  Checking assertions in step 8..
+SBY 14:33:35 [checks] engine_0: ##   0:00:00  Checking assumptions in step 9..
+SBY 14:33:36 [checks] engine_0: ##   0:00:02  Checking assertions in step 9..
+SBY 14:33:37 [checks] engine_0: ##   0:00:02  Status: passed
+SBY 14:33:37 [checks] engine_0: finished (returncode=0)
+SBY 14:33:37 [checks] engine_0: Status returned by engine: pass
+SBY 14:33:37 [checks] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:04 (4)
+SBY 14:33:37 [checks] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:04 (4)
+SBY 14:33:37 [checks] summary: engine_0 (smtbmc z3) returned pass
+SBY 14:33:37 [checks] summary: engine_0 did not produce any traces
+SBY 14:33:37 [checks] DONE (PASS, rc=0)

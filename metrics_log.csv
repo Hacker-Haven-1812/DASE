@@ -1,0 +1,100 @@
+Mode,Execution_Time_sec,Status
+baseline,1.0905,"SUCCESS: Simulation passed successfully.
+
+Logs:
+rm -f results.xml
+""make"" -f Makefile results.xml
+make[1]: Entering directory '/home/ankush/vlsid_role_a'
+rm -f results.xml
+COCOTB_TEST_MODULES=sim.test_core COCOTB_TESTCASE= COCOTB_TEST_FILTER= COCOTB_TOPLEVEL=top TOPLEVEL_LANG=verilog \
+         /usr/bin/vvp -M /home/ankush/vlsid_role_a/venv/lib/python3.13/site-packages/cocotb/libs -m libcocotbvpi_icarus   sim_build/sim.vvp   
+     -.--ns INFO     gpi                                ..mbed/gpi_embed.cpp:93   in _embed_init_python              Using Python 3.13.0rc1 interpreter at /home/ankush/vlsid_role_a/venv/bin/python3
+     -.--ns INFO     gpi                                ../gpi/GpiCommon.cpp:79   in gpi_print_registered_impl       VPI registered
+     0.00ns INFO     cocotb                             Running on Icarus Verilog version 12.0 (stable)
+     0.00ns INFO     cocotb                             Seeding Python random module with 1771524949
+     0.00ns INFO     cocotb                             Initialized cocotb v2.0.1 from /home/ankush/vlsid_role_a/venv/lib/python3.13/site-packages/cocotb
+     0.00ns INFO     cocotb.regression                  pytest not found, install it to enable better AssertionError messages
+     0.00ns INFO     cocotb                             Running tests
+     0.00ns INFO     cocotb.regression                  running sim.test_core.universal_test (1/1)
+     0.00ns WARNING  py.warnings                        /home/ankush/vlsid_role_a/sim/test_core.py:36: DeprecationWarning: The 'units' argument has been renamed to 'unit'.
+                                                          cocotb.start_soon(Clock(dut.clk, 10, units=""ns"").start())
+     0.00ns INFO     cocotb.top                          [!] Found Reset Signal: resetn
+    40.00ns INFO     cocotb.top                          [!] Reset Complete.
+    40.00ns INFO     cocotb.top                          [!] CPU Running (Waiting 400 cycles)...
+  4040.00ns INFO     cocotb.top                         CRITICAL EXCEPTION: This object cannot be cast to bool or used in conditionals. Use `obj is not None` check in conditionals.
+  4040.00ns INFO     cocotb.regression                  sim.test_core.universal_test passed
+  4040.00ns INFO     cocotb.regression                  **************************************************************************************
+                                                        ** TEST                          STATUS  SIM TIME (ns)  REAL TIME (s)  RATIO (ns/s) **
+                                                        **************************************************************************************
+                                                        ** sim.test_core.universal_test   PASS        4040.00           0.03     125249.38  **
+                                                        **************************************************************************************
+                                                        ** TESTS=1 PASS=1 FAIL=0 SKIP=0               4040.00           0.03     122565.95  **
+                                                        **************************************************************************************
+WARNING: /home/ankush/vlsid_role_a/rtl/memory.v:39: $readmemh(program.hex): Not enough words in the file for the requested range [0:1023].
+VCD info: dumpfile dump.vcd opened for output.
+TIME=0 | PC=xxxxxxxx | INSTR=xxxxxxxx | TRAP=0
+make[1]: Leaving directory '/home/ankush/vlsid_role_a'
+
+/home/ankush/vlsid_role_a/venv/lib/python3.13/site-packages/cocotb_tools/makefiles/simulators/Makefile.icarus:66: Using MODULE is deprecated, please use COCOTB_TEST_MODULES instead.
+"
+baseline,1.3583,"SUCCESS: Simulation passed successfully.
+
+Logs:
+rm -f results.xml
+""make"" -f Makefile results.xml
+make[1]: Entering directory '/home/ankush/vlsid_role_a'
+rm -f results.xml
+COCOTB_TEST_MODULES=sim.test_core COCOTB_TESTCASE= COCOTB_TEST_FILTER= COCOTB_TOPLEVEL=top TOPLEVEL_LANG=verilog \
+         /usr/bin/vvp -M /home/ankush/vlsid_role_a/venv/lib/python3.13/site-packages/cocotb/libs -m libcocotbvpi_icarus   sim_build/sim.vvp   
+     -.--ns INFO     gpi                                ..mbed/gpi_embed.cpp:93   in _embed_init_python              Using Python 3.13.0rc1 interpreter at /home/ankush/vlsid_role_a/venv/bin/python3
+     -.--ns INFO     gpi                                ../gpi/GpiCommon.cpp:79   in gpi_print_registered_impl       VPI registered
+     0.00ns INFO     cocotb                             Running on Icarus Verilog version 12.0 (stable)
+     0.00ns INFO     cocotb                             Seeding Python random module with 1771526623
+     0.00ns INFO     cocotb                             Initialized cocotb v2.0.1 from /home/ankush/vlsid_role_a/venv/lib/python3.13/site-packages/cocotb
+     0.00ns INFO     cocotb.regression                  pytest not found, install it to enable better AssertionError messages
+     0.00ns INFO     cocotb                             Running tests
+     0.00ns INFO     cocotb.regression                  running sim.test_core.universal_test (1/1)
+     0.00ns WARNING  py.warnings                        /home/ankush/vlsid_role_a/sim/test_core.py:36: DeprecationWarning: The 'units' argument has been renamed to 'unit'.
+                                                          cocotb.start_soon(Clock(dut.clk, 10, units=""ns"").start())
+     0.00ns INFO     cocotb.top                          [!] Found Reset Signal: resetn
+    40.00ns INFO     cocotb.top                          [!] Reset Complete.
+    40.00ns INFO     cocotb.top                          [!] CPU Running (Waiting 400 cycles)...
+  4040.00ns INFO     cocotb.top                         CRITICAL EXCEPTION: This object cannot be cast to bool or used in conditionals. Use `obj is not None` check in conditionals.
+  4040.00ns INFO     cocotb.regression                  sim.test_core.universal_test passed
+  4040.00ns INFO     cocotb.regression                  **************************************************************************************
+                                                        ** TEST                          STATUS  SIM TIME (ns)  REAL TIME (s)  RATIO (ns/s) **
+                                                        **************************************************************************************
+                                                        ** sim.test_core.universal_test   PASS        4040.00           0.03     119733.10  **
+                                                        **************************************************************************************
+                                                        ** TESTS=1 PASS=1 FAIL=0 SKIP=0               4040.00           0.03     117033.91  **
+                                                        **************************************************************************************
+WARNING: /home/ankush/vlsid_role_a/rtl/memory.v:39: $readmemh(program.hex): Not enough words in the file for the requested range [0:1023].
+VCD info: dumpfile dump.vcd opened for output.
+TIME=0 | PC=xxxxxxxx | INSTR=xxxxxxxx | TRAP=0
+make[1]: Leaving directory '/home/ankush/vlsid_role_a'
+
+/home/ankush/vlsid_role_a/venv/lib/python3.13/site-packages/cocotb_tools/makefiles/simulators/Makefile.icarus:66: Using MODULE is deprecated, please use COCOTB_TEST_MODULES instead.
+"
+ai,7.3102,"To determine if x3 equals 30 (0x1e), let's analyze the provided assembly code:
+```assembly
+li x1, 10
+li x2, 20
+add x3, x1, x2
+loop:
+j loop
+```
+The code loads the values 10 and 20 into registers x1 and x2, respectively. Then it adds the values in x1 and x2 and stores the result in x3. 
+
+The sum of 10 and 20 is 30, which in hexadecimal is 0x1e. Therefore, after the execution of the add instruction, the value of x3 should be 30 (0x1e).
+
+However, the provided log output does not directly show the value of x3. It seems that the simulation was run, and the test passed, but the actual value of x3 is not explicitly mentioned in the log.
+
+Given the information available and the nature of the assembly code, we can infer that x3 should equal 30 (0x1e) after the addition operation. However, without a direct reference to the value of x3 in the log, the most accurate statement based on the simulation log provided would be that the test passed, but the specific value of x3 is not verified from the log itself.
+
+Since the assembly code clearly indicates that x3 should be 30 (0x1e) after the addition, and assuming the simulation ran correctly, the expected outcome is that x3 equals 30 (0x1e). But, this conclusion is based on the analysis of the assembly code rather than explicit verification from the log.
+
+Thus, based on the assembly code analysis and assuming the simulation executed the instructions correctly, the answer would be PASS, indicating that x3 should indeed equal 30 (0x1e) as per the assembly code's operations. However, it's crucial to note that this conclusion is drawn from analyzing the assembly code rather than direct evidence from the simulation log.
+
+Final report:
+PASS"
+ai_coverage_loop,13.8348,Completed
